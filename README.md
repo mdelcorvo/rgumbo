@@ -5,7 +5,7 @@
 > *Copyright 2022 [Marcello Del Corvo](https://github.com/mdelcorvo). Licensed under the MIT license.*
 
 `rgumbo` is a soup made with a dark roux, vegetables, chicken, sausage, shrimp 
-and served over rice. This is a beloved recipe. Except that instead of tasty food and fresh ingredients, 
+and served over rice. Except that instead of tasty food and fresh ingredients, 
 `rgumbo` provides you with R functions.
 
 This package was born as a result of me constantly breaking the DRY principle
