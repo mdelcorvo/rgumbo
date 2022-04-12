@@ -4,7 +4,7 @@
 
 > *Copyright 2022 [Marcello Del Corvo](https://github.com/mdelcorvo). Licensed under the MIT license.*
 
-[Gumbo](https://www.allrecipes.com/recipe/216888/good-new-orleans-creole-gumbo/) is a soup made with a dark roux, vegetables, chicken, sausage, shrimp 
+[Gumbo](https://www.pillsbury.com/recipes/creole-chicken-gumbo-soup/15686514-d713-4056-bd2e-60cd68b20f9d) is a soup made with a dark roux, vegetables, chicken, sausage, shrimp 
 and served over rice. Except that instead of tasty food and fresh ingredients, 
 `rgumbo` provides you with R functions.
 
