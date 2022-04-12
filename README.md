@@ -4,7 +4,7 @@
 
 > *Copyright 2022 [Marcello Del Corvo](https://github.com/mdelcorvo). Licensed under the MIT license.*
 
-`rgumbo` is a soup made with a dark roux, vegetables, chicken, sausage, shrimp 
+`Gumbo` is a soup made with a dark roux, vegetables, chicken, sausage, shrimp 
 and served over rice. Except that instead of tasty food and fresh ingredients, 
 `rgumbo` provides you with R functions.
 
