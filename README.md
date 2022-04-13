@@ -4,14 +4,13 @@
 
 > *Copyright 2022 [Marcello Del Corvo](https://github.com/mdelcorvo). Licensed under the MIT license.*
 
-[Gumbo](https://www.pillsbury.com/recipes/creole-chicken-gumbo-soup/15686514-d713-4056-bd2e-60cd68b20f9d) is a soup made with a dark roux, vegetables, chicken, sausage, shrimp 
-and served over rice. Except that instead of tasty food and fresh ingredients, 
-`rgumbo` provides you with R functions.
+[Gumbo](https://www.pillsbury.com/recipes/creole-chicken-gumbo-soup/15686514-d713-4056-bd2e-60cd68b20f9d), like any other soup, is a mixture of different ingredients. This one in particular is made with a dark roux, vegetables, chicken, sausage, shrimp and served over rice. 
+Except that instead of tasty food and fresh ingredients, `rgumbo` provides you with R functions.
 
-This package was born as a result of me constantly breaking the DRY principle
+This package is a result of me constantly breaking the DRY principle
 by copy-and-pasting functions from old projects into new ones. Hence, the
 functions in `rgumbo` do not have a single common topic, but they are all either
-related to manipulating data.frames or general
+related to manipulating genomic data or general
 productivity utilities.
 
 This package  has several functions that can prove to be useful and time-saving if you happen to need
