@@ -1,5 +1,4 @@
-# rgumbo <img src="img/gumbo_logo.png" width="200" align="right" /> 
-(under development...)
+# rgumbo <img src="img/gumbo_logo.png" width="200" align="right" /> (under development...)
 
 
 
