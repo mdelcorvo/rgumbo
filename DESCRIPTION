@@ -6,7 +6,7 @@ Description: Collection of functions that help with easily manipulating
     genomics data.
 URL: https://github.com/mdelcorvo/rgumbo
 Depends:
-    R (>= 3.0.2)
+    R (>= 4.0.1)
 Imports:
     dplyr (>= 0.3.0),
     magrittr (>= 1.5)
