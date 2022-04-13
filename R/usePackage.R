@@ -14,7 +14,7 @@
 NULL
 
 #' @export
-#' @rdname between
+#' @rdname usePackage
 "%btwn%" <- function(x, rng) {
   between(x, rng, inclusive = TRUE)
 }
