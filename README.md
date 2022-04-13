@@ -1,9 +1,8 @@
 # rgumbo <img src="img/gumbo_logo.png" width="200" align="right" /> 
 
-**<ins>(Under Development...)</ins>**
-
-
 > *Copyright 2022 [Marcello Del Corvo](https://github.com/mdelcorvo). Licensed under the MIT license.*
+
+**<ins>(Under Development...)</ins>**
 
 [Gumbo](https://www.pillsbury.com/recipes/creole-chicken-gumbo-soup/15686514-d713-4056-bd2e-60cd68b20f9d), like any other soup, is a mixture of different ingredients. This one in particular is made with a dark roux, vegetables, chicken, sausage, shrimp and served over rice. 
 Except that instead of tasty food and fresh ingredients, `rgumbo` provides you with R functions.
