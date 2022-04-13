@@ -1,7 +1,6 @@
 # rgumbo <img src="img/gumbo_logo.png" width="200" align="right" /> 
 
-<u>(under development...)</u>
-<u>some text</u>
+# (under development...)
 
 
 > *Copyright 2022 [Marcello Del Corvo](https://github.com/mdelcorvo). Licensed under the MIT license.*
