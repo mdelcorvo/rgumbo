@@ -5,21 +5,17 @@
 \alias{usePackage}
 \title{usePackage}
 \usage{
-
-
 usePackage(pkgs)
 }
 \arguments{
 \item{pkgs }{Numeric vector (or single value) with the name of the packages}
 }
 \value{
-
 }
 \description{
 Function to automatically check, install from both CRAN and Bioconductor repositories (if necessary) and load required packages
 }
 \details{
-
 }
 \examples{
 usePackage(pkgs = c('data.table','purrr'))
