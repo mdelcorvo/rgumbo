@@ -15,9 +15,6 @@ NULL
 
 #' @export
 #' @rdname usePackage
-"%btwn%" <- function(x, rng) {
-  between(x, rng, inclusive = TRUE)
-}
 
 #' @export
 #' @rdname usePackage
