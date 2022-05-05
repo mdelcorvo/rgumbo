@@ -9,7 +9,9 @@ Depends:
     R (>= 4.0.1)
 Imports:
     dplyr (>= 0.3.0),
-    magrittr (>= 1.5)
+    magrittr (>= 1.5),
+    rtracklayer,
+    GenomicRanges
 Suggests:
     knitr (>= 1.7),
     lazyeval (>= 0.1.9),
