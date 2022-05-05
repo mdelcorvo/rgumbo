@@ -22,7 +22,7 @@
 
 hgLiftOver <- function(df,from="hg38",to="hg19") {
     
-    chain <- import.chain(paste(from,'To',to,'.over.chain',sep=''))
+    chain <- get(paste(from,'To',to,sep=''))
     colnames(df)[1:3]<-c('Chrom','Start','End')
     df_old<-df
     
