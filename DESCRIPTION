@@ -6,10 +6,7 @@ Description: Collection of functions that help with easily manipulating
     genomics data.
 URL: https://github.com/mdelcorvo/rgumbo
 Depends:
-    R (>= 4.0.1),
-    data.table,
-    rtracklayer (>= 1.50.0),
-    GenomicRanges (>= 1.40.0)
+    R (>= 4.0.1)
 Imports:
     data.table,
     rtracklayer (>= 1.50.0),
