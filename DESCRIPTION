@@ -8,8 +8,8 @@ URL: https://github.com/mdelcorvo/rgumbo
 Depends:
     R (>= 4.0.1)
 Imports:
-    rtracklayer,
-    GenomicRanges
+    rtracklayer (>= 1.56.0),
+    GenomicRanges (>= 1.48.0)
 Suggests:
     data.table
 License: MIT + file LICENSE
