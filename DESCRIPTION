@@ -8,9 +8,9 @@ URL: https://github.com/mdelcorvo/rgumbo
 Depends:
     R (>= 4.0.1)
 Imports:
+    GenomicRanges (>= 1.40.0),
     data.table,
-    rtracklayer (>= 1.50.0),
-    GenomicRanges (>= 1.40.0)
+    rtracklayer (>= 1.50.0)
 License: MIT + file LICENSE
 LazyData: true
 VignetteBuilder: knitr
