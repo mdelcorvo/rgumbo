@@ -2,7 +2,7 @@
 #'
 #' Function to converts genome coordinates between assemblies. 
 #' 
-#' \code{hgLiftOver(data,from="hg38",to="hg19")}.
+#' \code{hgLiftOver(df,from="hg38",to="hg19")}.
 #'
 #' @param df data.frame in BED format with chromosome number, start and end position or chromosome number and a single genomic position respectively
 #' @param from starting assembly
