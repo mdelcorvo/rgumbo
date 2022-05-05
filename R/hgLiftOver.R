@@ -30,7 +30,7 @@ hgLiftOver <- function(df,from="hg38",to="hg19") {
 		df$Chrom <- paste('chr',df$Chrom,sep='')
 	}
 		
-    g1<-GenomicRanges::GRanges(df$Chr, ranges =IRanges(df$Start,df$End))
+    g1<-GRanges(df$Chr, ranges =IRanges(df$Start,df$End))
 	lift<-do.call(rbind.data.frame, lapply(lapply(liftOver(g1, chain),as.character),function(x) ifelse(length(x)==0,NA,x)))
 	colnames(lift)[1]<-to
 	
