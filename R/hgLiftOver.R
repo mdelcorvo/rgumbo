@@ -93,8 +93,8 @@ hgLiftOver <- function(bed,from="hg38",to="hg19",chrom=NULL,start=NULL,end=NULL)
 			bed[,end]<-unlist(lapply(list2,function(x) x[2]))
 			bed$refGenome <- to
 			
-				if (!all(grepl('chr',bed_old$[,chrom]))) {
-				bed$[,chrom] <- gsub('chr','',bed$[,chrom])
+				if (!all(grepl('chr',bed_old[,chrom]))) {
+				bed[,chrom] <- gsub('chr','',bed[,chrom])
 				}
 			}
     } else {
