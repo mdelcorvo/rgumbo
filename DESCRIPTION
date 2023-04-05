@@ -10,7 +10,7 @@ Depends:
     GenomicRanges (>= 1.40.0),
 Imports:
     rtracklayer (>= 1.50.0)
-    data.table
+    data.table (>= 1.14)
 License: MIT + file LICENSE
 LazyData: true
 VignetteBuilder: knitr
