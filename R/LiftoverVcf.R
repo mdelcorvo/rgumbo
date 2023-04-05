@@ -64,7 +64,4 @@ vcf<-rbind(header,vcf) # restore header
 fwrite(vcf,file=output, row.names=F, col.names=F,quote=F, sep='\t')
 
 cat(nlines,'positions successfully converted from',from,'to',to,'genome build in',output,'file',  "\n")
-cat("\n")
-cat(output,'file  created',  "\n")
-
 }
