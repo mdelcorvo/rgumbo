@@ -58,7 +58,7 @@ vcf$POS<- unlist(lapply(list1,function(x) x[2]))
 
 colnames(vcf)[1]<-c('#CHROM')
 colnames(header)<-colnames(vcf)
-vcf<-rbind(colnames(vcf),vcf)
+vcf<-rbind(colnames(vcf),as.data.frame(vcf))
 vcf<-rbind(header,vcf) # restore header
 
 fwrite(vcf,file=output, row.names=F, col.names=F,quote=F, sep='\t')
