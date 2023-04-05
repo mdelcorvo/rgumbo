@@ -9,7 +9,7 @@ LiftoverVcf(vcf,output,from="hg38",to="hg19")
 }
 \arguments{
 \item{vcf}{The input VCF/BCF file to be lifted overy}
-\item{output}{name of the output vcf file} 
+\item{output}{name of the output file} 
 \item{from}{starting assembly}
 \item{to}{final assembly}
 }
