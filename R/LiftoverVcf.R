@@ -2,16 +2,17 @@
 #'
 #' Function to lifts over a VCF file from one genome build to another, producing a properly headered, sorted VCF in one go.
 #' 
-#' \code{LiftoverVcf(vcf,from="hg38",to="hg19")}.
+#' \code{LiftoverVcf(vcf,output,from="hg38",to="hg19")}.
 #'
 #' @param vcf The input VCF/BCF file to be lifted over
+#' @param output name of the output file
 #' @param from starting assembly
 #' @param to final assembly
 #' @return a messagge explaining if all packages are installed.
 #'
 
 #' @examples
-#' LiftoverVcf(vcf,from="hg38",to="hg19")
+#' LiftoverVcf(vcf,output,from="hg38",to="hg19")
 #' @name LiftoverVcf
 
 #' @export
