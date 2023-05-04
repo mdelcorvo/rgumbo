@@ -30,7 +30,7 @@ devtools::install_github("mdelcorvo/rgumbo")
 ## Getting started
 
 There are many different usecases for rgumbo.  See the
-[overview vignette](https://github.com/mdelcorvo/rgumbo/blob/develop/vignettes/overview.md)
+[overview vignette](https://github.com/mdelcorvo/rgumbo/develop/vignettes/overview.md)
 
 ```
 browseVignettes("rgumbo")
