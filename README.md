@@ -34,7 +34,32 @@ There are many different usecases for rgumbo.  See the
 
 ```
 browseVignettes("rgumbo")
+vignette("overview", "rgumbo")
 ```
 
 Alternatively, see the help file for any specific function for a complete
-detailed explanation of the function.
+detailed explanation of the function. For example `?rgumbo::LiftoverVcf`.
+
+Below is a very short introduction to the functions in rgumbo. You need to load 
+the package first. `library("rgumbo")`.
+
+### `usePackage()` function: check, install and load all required packages at one
+Function to automatically check, install and load all required packages from both CRAN and Bioconductor repositories.
+
+```
+usePackage(pkgs = c('data.table','purrr','clusterProfiler'))
+```
+
+### `LiftoverVcf()` function: lifts over a VCF file from one genome build to another
+It produces a properly headered, sorted and compressed VCF in one go.
+
+```
+LiftoverVcf(vcf,output,from="hg38",to="hg19")
+```
+
+### `hgLiftOver()` function: lifts over a bed-like files from one genome build to another 
+Converts genome coordinates between assemblies in a bed-like dataframe with chromosome number, start and (eventually) end position.
+
+```
+hgLiftOver(bed,from="hg38",to="hg19")
+```
