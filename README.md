@@ -1,7 +1,5 @@
 # rgumbo <img src="img/gumbo_logo.png" width="200" align="right" /> 
 
-**<ins>(Under Development...)</ins>**
-
 > *Copyright 2022 [Marcello Del Corvo](https://github.com/mdelcorvo). Licensed under the MIT license.*
 
 
@@ -63,3 +61,15 @@ Converts genome coordinates between assemblies in a bed-like dataframe with chro
 ```
 hgLiftOver(bed,from="hg38",to="hg19")
 ```
+
+**<ins>Under Development...</ins>**
+
+### `BamCov()` function: find high coverage regions in a bam file
+Function to find and retrieve regions from a bam file based on a specific coverage cutoff.
+
+
+### `splitBed()` function: split a bed file into smaller files.
+Function to split a bed file into smaller files based on number of chunks or chromosome name.
+
+### `snpeff()` function: edit an annotated vcf based on SnpEff tool into a readable file
+Function to edit the INFO column of a SnpEff annotated vcf file splitting each functional transcripts into single rows.
