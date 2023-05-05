@@ -1,7 +1,5 @@
 # rgumbo <img src="img/gumbo_logo.png" width="200" align="right" /> 
 
-**<ins>(Under Development...)</ins>**
-
 > *Copyright 2022 [Marcello Del Corvo](https://github.com/mdelcorvo). Licensed under the MIT license.*
 
 
@@ -30,11 +28,48 @@ devtools::install_github("mdelcorvo/rgumbo")
 ## Getting started
 
 There are many different usecases for rgumbo.  See the
-[overview vignette](https://github.com/mdelcorvo/rgumbo/blob/master/vignettes/overview.md)
+[overview vignette](https://github.com/mdelcorvo/rgumbo/develop/vignettes/overview.md)
 
 ```
 browseVignettes("rgumbo")
+vignette("overview", "rgumbo")
 ```
 
 Alternatively, see the help file for any specific function for a complete
-detailed explanation of the function.
+detailed explanation of the function. For example `?rgumbo::LiftoverVcf`.
+
+Below is a very short introduction to the functions in rgumbo. You need to load 
+the package first. `library("rgumbo")`.
+
+### `usePackage()` function: check, install and load all required packages at one
+Function to automatically check, install and load all required packages from both CRAN and Bioconductor repositories.
+
+```
+usePackage(pkgs = c('data.table','purrr','clusterProfiler'))
+```
+
+### `LiftoverVcf()` function: lifts over a VCF file from one genome build to another
+It produces a properly headered, sorted and compressed VCF in one go.
+
+```
+LiftoverVcf(vcf,output,from="hg38",to="hg19")
+```
+
+### `hgLiftOver()` function: lifts over a bed-like files from one genome build to another 
+Converts genome coordinates between assemblies in a bed-like dataframe with chromosome number, start and (eventually) end position.
+
+```
+hgLiftOver(bed,from="hg38",to="hg19")
+```
+
+**<ins>Under Development...</ins>**
+
+### `BamCov()` function: find high coverage regions in a bam file
+Function to find and retrieve regions from a bam file based on a specific coverage cutoff.
+
+
+### `splitBed()` function: split a bed file into smaller files.
+Function to split a bed file into smaller files based on number of chunks or chromosome name.
+
+### `snpeff()` function: edit an annotated vcf based on SnpEff tool into a readable file
+Function to edit the INFO column of a SnpEff annotated vcf file splitting each functional transcripts into single rows.
