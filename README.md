@@ -62,14 +62,18 @@ Converts genome coordinates between assemblies in a bed-like dataframe with chro
 hgLiftOver(bed,from="hg38",to="hg19")
 ```
 
+### `splitBed()` function: split bed files by chromosome or by n chunks for each chromosome.
+Function to split bed files into smaller files by chromosome or by a predefined number of chunks for each chromosome.
+File sizes may be variable.
+
+```
+splitBed<-function(bed,n,chrOnly=F,prefix=T,writeBed=F,verbose=T)
+```
+
 **<ins>Under Development...</ins>**
 
 ### `BamCov()` function: find high coverage regions in a bam file
 Function to find and retrieve regions from a bam file based on a specific coverage cutoff.
-
-
-### `splitBed()` function: split a bed file into smaller files.
-Function to split a bed file into smaller files based on number of chunks or chromosome name.
 
 ### `snpeff()` function: edit an annotated vcf based on SnpEff tool into a readable file
 Function to edit the INFO column of a SnpEff annotated vcf file splitting each functional transcripts into single rows.
