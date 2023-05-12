@@ -8,7 +8,7 @@
 usePackage(pkgs)
 }
 \arguments{
-\item{pkgs }{Numeric vector (or single value) with the name of the packages}
+\item{pkgs}{Numeric vector (or single value) with the name of the packages}
 }
 \value{
 }
