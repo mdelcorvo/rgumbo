@@ -70,10 +70,15 @@ File sizes may be variable.
 splitBed<-function(bed,n,chrOnly=F,prefix=T,writeBed=F,verbose=T)
 ```
 
+### `SnpEff()` function: convert a SnpEff-based annotated vcf into a readable file
+Function to make the SnpEff-based vcf readable by extracting the functional annotation and splitting each gene transcript into single rows.
+
+```
+SnpEff(vcf,modifier=F,amino=F,rm_dup=T)
+```
+
 **<ins>Under Development...</ins>**
 
 ### `BamCov()` function: find high coverage regions in a bam file
 Function to find and retrieve regions from a bam file based on a specific coverage cutoff.
 
-### `snpeff()` function: edit an annotated vcf based on SnpEff tool into a readable file
-Function to edit the INFO column of a SnpEff annotated vcf file splitting each functional transcripts into single rows.
