@@ -3,7 +3,7 @@
 > *Copyright 2022 [Marcello Del Corvo](https://github.com/mdelcorvo). Licensed under the MIT license.*
 
 
-[Gumbo](https://www.pillsbury.com/recipes/creole-chicken-gumbo-soup/15686514-d713-4056-bd2e-60cd68b20f9d), like any other soup, is a mixture of different ingredients. This one in particular is made with a dark roux, vegetables, chicken, sausage, shrimp and served over rice. 
+[Gumbo](https://www.jocooks.com/wp-content/uploads/2023/10/gumbo-recipe-1-4-1229x1536.jpg), like any other soup, is a mixture of different ingredients. This one in particular is made with a dark roux, vegetables, chicken, sausage, shrimp and served over rice. 
 Except that instead of tasty food and fresh ingredients, `rgumbo` provides you with R functions.
 
 This package is a result of me constantly breaking the DRY principle
