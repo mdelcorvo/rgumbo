@@ -64,8 +64,19 @@ if (verbose) {
 }
 
 if (writeBed) {
-    lapply(l3,function(x) fwrite(x,file=paste0(paste(unique(x$V1),paste(x$V2[1],tail(x$V3,1),sep='-'),sep='_'),'.bed'), row.names=F, col.names=F,quote=F, sep='\t'))
-	cat(bed, ' file splitted in ',length(l3),' pieces', "\n")
+	if (!is.null(chunks) & is.numeric(chunks)) {
+		lapply(l3,function(x) fwrite(x,file=paste0(paste(paste(x[1,1],paste(x[1,2],x[1,3],sep='-'),sep=':'),
+													   paste(tail(x,1)[,1],paste(tail(x,1)[,2],tail(x,1)[,3],sep='-'),sep=':'),sep='_'),
+												   '.bed'), row.names=F, col.names=F,quote=F, sep='\t'))
+		cat(bed, ' file splitted in ',length(l3),' pieces', "\n")
+	} else if (!is.null(n) & is.numeric(n)) {
+		lapply(l3,function(x) fwrite(x,file=paste0(paste(unique(x$V1),paste(x$V2[1],tail(x$V3,1),sep='-'),sep='_'),'.bed'), row.names=F, col.names=F,quote=F, sep='\t'))
+		cat(bed, ' file splitted in ',length(l3),' pieces', "\n")
+	} else if (chrOnly) {
+		lapply(l3,function(x) fwrite(x,file=paste0(paste(unique(x$V1),paste(x$V2[1],tail(x$V3,1),sep='-'),sep='_'),'.bed'), row.names=F, col.names=F,quote=F, sep='\t'))
+		cat(bed, ' file splitted in ',length(l3),' pieces', "\n")
+	}
+
 	} else {
 	return(l3)
 }
