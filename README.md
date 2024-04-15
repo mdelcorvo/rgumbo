@@ -77,8 +77,9 @@ Function to make the SnpEff-based vcf readable by extracting the functional anno
 SnpEff(vcf,modifier=F,amino=F,rm_dup=T)
 ```
 
-**<ins>Under Development...</ins>**
-
-### `BamCov()` function: find high coverage regions in a bam file
+### `HighCovBam()` function: find high coverage regions in a bam file
 Function to find and retrieve regions from a bam file based on a specific coverage cutoff.
 
+```
+HighCovBam(bam,cutoff=100,width=500)
+```

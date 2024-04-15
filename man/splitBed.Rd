@@ -5,11 +5,12 @@
 \alias{splitBed}
 \title{splitBed}
 \usage{
-splitBed(bed,n,chrOnly=F,prefix=T,writeBed=F,verbose=T)
+splitBed(bed,chunks=NULL,n=NULL,chrOnly=F,prefix=T,writeBed=F,verbose=F)
 }
 \arguments{
 \item{bed}{data.frame in BED format with chromosome number, start and end position}
-\item{n}{number of chunks}
+\item{chunks}{number of chunks to split}
+\item{n}{number of lines for each chromosome}
 \item{chrOnly}{split only by chromosome}
 \item{prefix}{set to TRUE to add chr prefix if absent or FALSE to remove it if present}
 \item{writeBed}{write new bed files}
@@ -18,7 +19,7 @@ splitBed(bed,n,chrOnly=F,prefix=T,writeBed=F,verbose=T)
 \value{
 }
 \description{
-Function to split bed files by chromosome or by n chunks for each chromosome
+Function to split bed files by chunks, by number of rows for each chromosome or by chromosome
 }
 \details{
 }
