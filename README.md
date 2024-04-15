@@ -62,8 +62,8 @@ Converts genome coordinates between assemblies in a bed-like dataframe with chro
 hgLiftOver(bed,from="hg38",to="hg19")
 ```
 
-### `splitBed()` function: split bed files by chromosome or by n chunks for each chromosome.
-Function to split bed files into smaller files by chromosome or by a predefined number of chunks for each chromosome.
+### `splitBed()` function: split bed files by chunks, by number of rows for each chromosome or by chromosome.
+Function to split bed files by chunks, by number of rows for each chromosome or by chromosome.
 File sizes may be variable.
 
 ```
