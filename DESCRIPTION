@@ -7,11 +7,11 @@ Description: Collection of functions that help with easily manipulating
 URL: https://github.com/mdelcorvo/rgumbo
 Depends:
     R (>= 4.0.1),
-Imports:
-    data.table (>= 1.14.8),
-    GenomicRanges (>= 1.40.0),
+    GenomicRanges,
     GenomicAlignments,
-    rtracklayer (>= 1.50.0)
+    rtracklayer
+Imports:
+    data.table (>= 1.14.8)
 License: MIT + file LICENSE
 LazyData: true
 VignetteBuilder: knitr
