@@ -54,7 +54,7 @@ colnames(lift)[1]<-to
 list1<-strsplit(lift[,1],':',fixed = TRUE)
 vcf$Chrom<-unlist(lapply(list1,function(x) x[1]))
 vcf$POS<- as.numeric(unlist(lapply(list1,function(x) x[2])))
-vcf <- vcf[with(vcf, order(as.numeric(sub("chr", "", vcf$Chrom)), vcf$POS,decreasing=T)), ]
+vcf <- vcf[with(vcf, order(as.numeric(sub("chr", "", vcf$Chrom)), vcf$POS)), ]
 #
 
 colnames(vcf)[1]<-c('#CHROM')
