@@ -13,5 +13,6 @@ Depends:
 Imports:
     data.table (>= 1.14.8)
 License: MIT + file LICENSE
+LazyData: true
 VignetteBuilder: knitr
 RoxygenNote: 5.0.1
